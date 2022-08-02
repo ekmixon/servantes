@@ -10,7 +10,7 @@ WORDS = []
 
 @app.route('/')
 def word_of_the_day():
-    return "The word of the day is: {}".format(pick_word())
+    return f"The word of the day is: {pick_word()}"
 
 
 def pick_word():
